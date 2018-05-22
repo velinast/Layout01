@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: #666666;
+    box-sizing: border-box;
+    
+}
+body{
+    background: white;
+}
+h1{
+    margin-right: auto;
+    color: beige;
+}
+nav{
+    display: flex;
+    margin-left: auto;
+    color: black;
+    border: bisque 1px;
+}
+nav>a{ 
+    color: beige;
+    text-decoration: none;
+    padding: 5%;
+    
+    
+}footer{
+    background: black;
+}
