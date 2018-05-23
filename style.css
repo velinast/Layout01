@@ -2,6 +2,7 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    flex-basis: 25%;
     background: #666666;
     box-sizing: border-box;
     
@@ -22,9 +23,16 @@ nav{
 nav>a{ 
     color: beige;
     text-decoration: none;
-    padding: 5%;
-    
-    
-}footer{
+    padding: 5%;    
+}
+.top{
+    padding: 2px;
+    height: 315px;
+    width: 215px;
+    display: flex;
+    display: inline-block;
+  
+}
+footer{
     background: black;
 }
