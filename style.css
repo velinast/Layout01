@@ -83,21 +83,27 @@ color: #333;
 .media{
     border-top: 1px ridge #333;
     display: flex;
+    flex-flow: column wrap;
     /* flex-direction: column; */
     /* justify-content: center; */
-    align-items: flex-start;
+    /* align-items: flex-start; */
     padding: 20px;
 }
 .image{
+    order: 1;
+    height: 150px;
+    width: 180px;
     /* flex: 1;
     align-items: flex-start; */
 }
-.media .content{
+.content{
     background-color: azure;
     flex: 1;
     /* display: flex;
-    justify-content: space-around; */
-    
+    justify-content: space-around; */   
+}
+.some{
+    flex-direction: row;
 }
 footer{
     background: black;
