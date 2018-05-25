@@ -1,37 +1,103 @@
-header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex-basis: 25%;
-    background: #666666;
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    
-}
+  }
+
 body{
     background: white;
+    
 }
-h1{
-    margin-right: auto;
-    color: beige;
+header{
+    /* display: flex; */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;    /* Add this */
+    background: #333;
 }
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    
+}
+.logo{
+    display: inline;
+    /* display: flex;
+    justify-content: space-around; */
+}
+  
 nav{
     display: flex;
-    margin-left: auto;
-    color: black;
-    border: bisque 1px;
+    justify-content: flex-end;
+    margin-left: 500px;
+    background-color: black;
 }
 nav>a{ 
-    color: beige;
+    color: whitesmoke;
     text-decoration: none;
-    padding: 5%;    
+    display: flex;
+    padding: 20px;  
 }
-.top{
+section{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.top-image{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    padding: 20px;
+    /* border: 0.5px groove #333; */
+}
+.dimmension{
+    width: 215px;
+    height: 315px;
+}
+.container{
+    flex: 1;
+    position: absolute; 
+    bottom: 20px;
+    background: rgba(255, 255, 255, 0.65);
+    color: #5a5757;
+    width: 215px;
+    text-align: center;
+    font-size: 1.25em;
+    
+}
+/* .top{
     padding: 2px;
     height: 315px;
     width: 215px;
     display: flex;
     display: inline-block;
-  
+} */
+.someText{
+display: flex;
+text-align: center;
+color: #333;
+}
+.media{
+    border-top: 1px ridge #333;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: flex-start;
+    padding: 20px;
+}
+.image{
+    /* flex: 1;
+    align-items: flex-start; */
+}
+.media .content{
+    background-color: azure;
+    flex: 1;
+    /* display: flex;
+    justify-content: space-around; */
+    
 }
 footer{
     background: black;
