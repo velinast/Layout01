@@ -25,8 +25,7 @@ header{
 }
 .logo{
     display: inline;
-    /* display: flex;
-    justify-content: space-around; */
+    
 }
   
 nav{
@@ -51,7 +50,7 @@ section{
     justify-content: flex-start;
     position: relative;
     padding: 20px;
-    /* border: 0.5px groove #333; */
+  
 }
 .dimmension{
     width: 215px;
@@ -68,43 +67,25 @@ section{
     font-size: 1.25em;
     
 }
-/* .top{
-    padding: 2px;
-    height: 315px;
-    width: 215px;
-    display: flex;
-    display: inline-block;
-} */
+
 .someText{
 display: flex;
 text-align: center;
 color: #333;
 }
-.media{
-    border-top: 1px ridge #333;
+.flex-container {
     display: flex;
-    flex-flow: column wrap;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: flex-start; */
-    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
 }
-.image{
-    order: 1;
-    height: 150px;
-    width: 180px;
-    /* flex: 1;
-    align-items: flex-start; */
-}
-.content{
-    background-color: azure;
-    flex: 1;
-    /* display: flex;
-    justify-content: space-around; */   
-}
-.some{
-    flex-direction: row;
-}
+.flex-item {
+    border: 1px solid #626262;
+    margin: 3px;
+    padding: 10px 0 0 10px;
+    }
+span {
+        padding-left: 5px;
+    }
 footer{
     background: black;
 }
